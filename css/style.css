@@ -113,6 +113,27 @@ img {
     width: 100%;
 }
 
+.discog {
+position: relative;
+overflow: hidden;
+}
+.cover {
+    float:left;
+    width:31%;
+    margin:1% 1% 45px 1%;
+}
+.name {
+    position:absolute;
+    bottom:0px;
+    font-size: 20px;
+    color: #f1f1f1;
+    font-family: "helvetica";
+}
+.cover img {
+    width: 100%;
+    display: block;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column {
